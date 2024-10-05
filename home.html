@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="base2::layout(~{::section})">
+<head>
+<meta charset="ISO-8859-1">
+<title>home</title>
+</head>
+<body>
+  <section class="banner d-flex justify-content-center align-items-center">
+       <div class="text-center">
+       <h1 class="font-weight-bold">SpringConnect:Smart Contact Manager</h1>
+       <p>Start collecting your contacts in a smarter way . We provide an efficient way to handle your contacts .</p>
+        <a th:href="@{/signup}" type="button" class="btn bg-info btn-lg text-white btnn">Let's get started</a>
+       </div>
+  </section>
+ 
+</body>
+</html>

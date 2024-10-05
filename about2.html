@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="base2::layout(~{::section})" class="html">
+<head>
+<meta charset="ISO-8859-1">
+<title>about</title>
+</head>
+<body>
+  <section class="body">
+     <div class="about-section ">
+       <h1>About Us</h1>
+       <p>Welcome to the SpringConnect: Smart Contact Manager, your go-to solution for efficiently organizing and managing your contacts.
+		This web application is built to help you stay on top of your contacts, enhance communication, and remain organized in today’s busy world.</p>
+		<p>Our goal is to deliver a hassle-free contact management experience that makes connecting with others simpler. With Smart Contact Manager, you can focus less on finding contact information and more on nurturing meaningful relationships.</p>
+
+     </div> 
+     
+     <div class="container mt-3 mb-3">
+     	<div class="card">
+     	    <div class="card-body">
+     	       <h2 class="text-center mb-3">Key Features</h2>
+     	       <div class="text-center">
+     	       <p>Organized Contact Management: Easily store, categorize, and manage your contacts in a well-structured system.</p>
+				<p>Fast and Efficient Search: Quickly locate the contacts you need with powerful search and filtering features.</p>
+				<p>Intuitive User Experience: Our user-focused design ensures a seamless and pleasant experience for every user.</p>
+				<p>Profile Image Upload: Add profile pictures to your contacts for quick and easy visual identification.</p>
+				<p>Data Security: Your contact details are securely stored, ensuring your privacy and peace of mind.</p>
+				<p>Responsive Layout: Access your contact list from any device, whether it’s a desktop, tablet, or smartphone.</p>
+				<p>Seamless Collaboration: Effortlessly share contacts with colleagues and friends to boost teamwork and networking.</p>
+
+     	       </div>
+     	    </div>
+     	</div>
+     </div> 
+     
+ <h2 style="text-align:center">Testimonials</h2>
+ <div class="row ml-3">
+                <div class="column">
+                   <div class="card">
+                   <img src="/images/person3.jpeg" alt="Launa" style="width:100%">
+                   <div class="container">
+                   <h2>Launa </h2>
+                    <p class="title">Tech Startup Founder</p>
+                    <p>As a startup founder, keeping track of all the contacts and investors is crucial. This app has simplified my life by organizing all my contacts in one place with quick access and reminders for follow-ups.</p>
+                    <p>launa@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                  </div>
+                </div>
+              </div>  
+             
+
+		<div class="column">
+			<div class="card">
+				<img src="/images/person.jpg" alt="Mike" style="width: 100%">
+				<div class="container">
+					<h2>Mike Ross</h2>
+					<p class="title">Freelance Designer</p>
+					<p>Managing client details and staying organized has always been a challenge, but with this contact manager, I have everything in one place. It’s intuitive, and I can quickly search for contacts and notes whenever I need them.</p>
+					<p>mike@example.com</p>
+					<p>
+						<button class="button">Contact</button>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+<div class="column">
+    <div class="card">
+      <img src="/images/person1.jpeg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Peter</h2>
+        <p class="title">HR Manager</p>
+        <p>SpringConnect makes it incredibly easy to manage employee and candidate information. I love the tagging and categorization features that allow me to quickly find the right person for a role.</p>
+        <p>peter@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+ </div>	
+  <script>
+      $(document).ready(()=>{
+        $(".item").removeClass("active1");
+        $("#about2").addClass("active1");
+      });
+      
+  </script>	
+</section>
+  
+ 
+</body>
+</html>
